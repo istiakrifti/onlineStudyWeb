@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+min-height: 100vh;
+background-repeat: no-repeat;
+
+}
+*{
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.oc{
+  padding-top:0px ;
+  background-color: antiquewhite;
+  color: rgb(7, 17, 7);
+  text-align: center;
+}
+.nam{
+  font-style: blod;
+}
+.live{
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+.join{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 17px;
+  border: none;
+  background-color: dimgrey;
+}
+.content,.content_code,.content_note{
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.code,.note{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 17px;
+  border: none;
+  background-color: dimgrey;
 }
